@@ -12,7 +12,7 @@ while burgerfarm do
             for _,k in pairs(v:GetDescendants()) do
                 if k.Name == 'ClickDetector' then
                     k.MaxActivationDistance = math.huge
-                    fireclickdetector(k, math.huge)
+                    fireclickdetector(k)
         end
     end
     end
